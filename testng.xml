@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Lumka.Thile/IdeaProjects/Lumka_Assessment">
+        <parameter name="ILABURL" value="https://www.ilabquality.com/"/>
+        <parameter name="Browser" value="chrome"/>
+        <classes><class name="webTest.iLAB_Test">
+            <methods>
+                <include name="lab"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
